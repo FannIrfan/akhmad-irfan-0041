@@ -4,7 +4,7 @@ session_start();
 if (!isset($_SESSION['transactions'])) {
     $_SESSION['transactions'] = [];
 }
-
+// Akhmad Irfan Fdahlurrohman 23.230.0041
 // Fungsi hitung diskon
 function hitungDiskon($totalBelanja, $isMember) {
     $diskon1 = 0;
